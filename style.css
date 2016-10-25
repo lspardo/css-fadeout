@@ -1,0 +1,46 @@
+
+/**VISUAL STYLING**/
+h1 {
+  color: #4a1b7c;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.wrapper {
+  margin: 80px;
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/**ANIMATION CSS**/
+.top-fade-out {
+  -webkit-animation-name: top-fade-out;
+  animation-name: top-fade-out;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes top-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes top-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
